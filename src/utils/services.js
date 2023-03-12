@@ -1,11 +1,11 @@
 import axios from "axios";
 import { FORMAPI, VIEWAPI } from "./Routes";
+ export const BASE_URL = "https://stackfusion-server-production.up.railway.app/api"; //devlopment//
 
-export const BASE_URL = "https://stackfusion-server-production.up.railway.app/api"; //devlopment//
+// export const BASE_URL = "http://localhost:5000/api"; //devlopment//
 
 
 axios.defaults.baseURL = BASE_URL;
-
 
 
 
